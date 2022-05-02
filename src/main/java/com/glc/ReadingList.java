@@ -5,6 +5,9 @@ import java.util.List;
 
 public class ReadingList {
 
+    List<BookItem> readBooksList = new ArrayList<>();
+
+
     public ReadingList(){
 
     }
@@ -15,10 +18,10 @@ public class ReadingList {
     }
 
     public void addBook(Book book, String dateRead,int rating){
-
+        this.readBooksList.add(new BookItem(book,dateRead,rating));
     }
 
     public int numberRead() {
-        return 0;
+     return this.readBooksList.size();
     }
 }
