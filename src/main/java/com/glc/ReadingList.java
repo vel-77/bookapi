@@ -12,9 +12,9 @@ public class ReadingList {
 
     }
 
-    public List<Book> getBooks()
+    public List<BookItem> getBooks()
     {
-        return new ArrayList<>();
+        return readBooksList;
     }
 
     public void addBook(Book book, String dateRead,int rating){
