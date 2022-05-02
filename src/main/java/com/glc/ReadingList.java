@@ -5,6 +5,10 @@ import java.util.List;
 
 public class ReadingList {
 
+    public ReadingList(){
+
+    }
+
     public List<Book> getBooks()
     {
         return new ArrayList<>();

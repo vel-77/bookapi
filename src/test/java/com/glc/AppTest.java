@@ -1,7 +1,6 @@
 package com.glc;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -16,7 +15,6 @@ public class AppTest {
      */
     @Test
     public void sonFirstCallBookListShouldBeEmpty() {
-        assertTrue(true);
         // SETUP
         ReadingList cut = new ReadingList();
         //Execute
