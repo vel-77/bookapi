@@ -13,4 +13,12 @@ public class ReadingList {
     {
         return new ArrayList<>();
     }
+
+    public void addBook(Book book, String dateRead,int rating){
+
+    }
+
+    public int numberRead() {
+        return 0;
+    }
 }
